@@ -1,0 +1,62 @@
+body{
+    background-color: black;
+    font-family: Roboto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.post {
+    background-color: white;
+    width: 600px;
+}
+
+ .html-icon{
+    margin-right: 10px;
+    
+  }
+
+ .post-img{
+    width: 100%;
+    
+ } 
+
+.post-icons, .post-header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.icons-left{
+    display: flex;
+    
+}
+
+i {
+    font-size: 37px;
+}
+
+.header-left{
+    display: flex;
+    margin: 10px;
+}
+
+
+.post-autor {
+    display: inline-flex;
+    flex-direction: column;
+    
+}
+
+.points-icon {
+    margin: 10px 10px 10px 0;
+}
+
+.post-body{
+    padding: 10px;
+}
+
+.message-icon, .share-icon {
+    margin-left: 12px;
+}
